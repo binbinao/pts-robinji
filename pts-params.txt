@@ -1,0 +1,195 @@
+
+Phoronix Test Suite v10.8.5
+
+The **Phoronix Test Suite** is the most comprehensive testing and benchmarking platform available for Linux, Solaris, macOS, Windows, and BSD operating systems. The Phoronix Test Suite allows for carrying out tests in a fully automated manner from test installation to execution and reporting. All tests are meant to be easily reproducible, easy-to-use, and support fully automated execution. The Phoronix Test Suite is open-source under the GNU GPLv3 license and is developed by Phoronix Media in cooperation with partners.
+
+View the included documentation or visit https://www.phoronix-test-suite.com/ for full details.
+
+SYSTEM
+
+    interactive        
+    php-conf           
+    shell              
+    system-info        
+    system-properties  
+    system-sensors     
+
+TEST INSTALLATION
+
+    force-install         [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    install               [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    install-dependencies  [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    make-download-cache                                                           
+    remove-installed-test [Test]                                                  
+
+TESTING
+
+    benchmark             [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    estimate-install-time [Test | Suite | OpenBenchmarking ID | Test Result]      
+    estimate-run-time     [Test | Suite | OpenBenchmarking ID | Test Result]      
+    finish-run            [Test Result]                                           
+    run                   [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    run-random-tests                                                              
+    run-subset            [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    run-tests-in-suite    [Suite]                                                 
+    stress-batch-run      [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    stress-run            [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    strict-benchmark      [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    strict-run            [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+
+BATCH TESTING
+
+    batch-benchmark   [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    batch-install     [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    batch-run         [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    batch-setup                                                               
+    default-benchmark [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    default-run       [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    dry-run           [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    internal-run      [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+
+OPENBENCHMARKING.ORG
+
+    clone-result                  [OpenBenchmarking ID]  ... 
+    dump-suites-to-git                                       
+    dump-tests-to-git                                        
+    enable-repo                                              
+    list-recommended-tests                                   
+    make-openbenchmarking-cache                              
+    ob-test-profile-analyze                                  
+    openbenchmarking-changes                                 
+    openbenchmarking-login                                   
+    openbenchmarking-refresh                                 
+    openbenchmarking-repositories                            
+    openbenchmarking-uploads                                 
+    recently-added-tests                                     
+    upload-result                 [Test Result]              
+    upload-test-profile                                      
+    upload-test-suite             [Suite]                    
+
+INFORMATION
+
+    info                          [Test | Suite | OpenBenchmarking ID | Test Result]      
+    intersect                     [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    list-all-tests                                                                        
+    list-available-suites                                                                 
+    list-available-tests                                                                  
+    list-available-virtual-suites                                                         
+    list-cached-tests                                                                     
+    list-installed-dependencies                                                           
+    list-installed-suites                                                                 
+    list-installed-tests                                                                  
+    list-missing-dependencies                                                             
+    list-not-installed-tests                                                              
+    list-possible-dependencies                                                            
+    list-saved-results                                                                    
+    list-test-status                                                                      
+    list-test-usage                                                                       
+    print-tests                   [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    search                                                                                
+    test-to-suite-map                                                                     
+
+ASSET CREATION
+
+    build-suite                                                                       
+    create-test-profile                                                               
+    debug-benchmark           [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    debug-install             [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    debug-result-parser       [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    debug-test-download-links [Test | Suite | OpenBenchmarking ID | Test Result]      
+    download-test-files       [Test | Suite | OpenBenchmarking ID | Test Result]  ... 
+    dump-documentation                                                                
+    inspect-test-profile      [Test]                                                  
+    rebuild-test-suite        [Suite]                                                 
+    validate-result-file                                                              
+    validate-test-profile     [Test]                                                  
+    validate-test-suite       [Suite]                                                 
+
+RESULT MANAGEMENT
+
+    auto-sort-result-file                      [Test Result]               
+    compare-results-to-baseline                [Test Result] [Test Result] 
+    compare-results-two-way                    [Test Result]               
+    edit-result-file                           [Test Result]               
+    extract-from-result-file                   [Test Result]               
+    keep-results-in-result-file                [Test Result]               
+    merge-results                              [Test Result]  ...          
+    prune-empty-results                        [Test Result]               
+    remove-incomplete-results-from-result-file [Test Result]               
+    remove-result                              [Test Result]               
+    remove-result-from-result-file             [Test Result]               
+    remove-results-from-result-file            [Test Result]               
+    remove-run-from-result-file                [Test Result]               
+    rename-identifier-in-result-file           [Test Result]               
+    rename-result-file                         [Test Result]               
+    reorder-result-file                        [Test Result]               
+    show-result                                [Test Result]               
+
+OTHER
+
+    commands                  
+    debug-dependency-handler  
+    debug-render-test         
+    debug-self-test           
+    help                      
+    version                   
+
+RESULT ANALYSIS
+
+    analyze-run-times      [Test Result] 
+    executive-summary      [Test Result] 
+    result-file-confidence [Test Result] 
+    result-file-stats      [Test Result] 
+    wins-and-losses        [Test Result] 
+    workload-topology      [Test Result] 
+
+MODULES
+
+    auto-load-module                              
+    list-modules                                  
+    module-info      [Phoronix Test Suite Module] 
+    module-setup     [Phoronix Test Suite Module] 
+    test-module      [Phoronix Test Suite Module] 
+    unload-module                                 
+
+DEBUGGING
+
+    check-tests                   [Test] 
+    diagnostics                          
+    dump-file-info                       
+    dump-openbenchmarking-indexes        
+    dump-phodevi-smart-cache             
+    dump-possible-options                
+    dump-unhandled-dependencies          
+    list-failed-installs                 
+    list-test-errors                     
+    list-unsupported-tests               
+
+USER CONFIGURATION
+
+    enterprise-setup   
+    network-info       
+    network-setup      
+    user-config-reset  
+    user-config-set    
+    variables          
+
+RESULT EXPORT
+
+    result-file-raw-to-csv [Test Result] 
+    result-file-to-csv     [Test Result] 
+    result-file-to-html    [Test Result] 
+    result-file-to-json    [Test Result] 
+    result-file-to-pdf     [Test Result] 
+    result-file-to-suite   [Test Result] 
+    result-file-to-text    [Test Result] 
+
+PHOROMATIC
+
+    start-phoromatic-server  
+
+RESULT VIEWER
+
+    start-result-viewer  
+
+

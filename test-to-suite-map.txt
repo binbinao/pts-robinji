@@ -1,0 +1,1822 @@
+
+Phoronix Test Suite v10.8.5
+Available Tests
+
+pts/3dmark 3DMark Wild Life Extreme 
+
+pts/ai-benchmark     AI Benchmark Alpha               
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/aircrack-ng  Aircrack-ng  
+pts/cryptography Cryptography 
+
+pts/amg                  Algebraic Multi-Grid Benchmark           
+pts/hpc                  HPC - High Performance Computing         
+pts/programmer           Programmer / Developer System Benchmarks 
+pts/scientific-computing Scientific Computing                     
+pts/linear-algebra       Linear Algebra                           
+
+pts/aobench   AOBench           
+pts/creator   Creator Workloads 
+pts/renderers Renderers         
+
+pts/aom-av1        AOM AV1           
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+pts/av1            AV1               
+
+pts/apache Apache HTTP Server       
+pts/server Server                   
+pts/kernel Common Kernel Benchmarks 
+
+pts/apache-iotdb Apache IoTDB 
+pts/server       Server       
+
+pts/apache-siege Apache Siege 
+pts/server       Server       
+
+pts/appleseed Appleseed         
+pts/creator   Creator Workloads 
+pts/renderers Renderers         
+
+pts/arrayfire            ArrayFire                                
+pts/hpc                  HPC - High Performance Computing         
+pts/nvidia-gpu-compute   NVIDIA GPU Compute                       
+pts/programmer           Programmer / Developer System Benchmarks 
+pts/scientific-computing Scientific Computing                     
+pts/linear-algebra       Linear Algebra                           
+
+pts/ashes-escalation Ashes of the Singulairty: Escalation 
+pts/steam            Steam                                
+
+pts/askap ASKAP                            
+pts/hpc   HPC - High Performance Computing 
+pts/mpi   MPI Benchmarks                   
+
+pts/asmfish asmFish          
+pts/chess   Chess Test Suite 
+
+pts/astcenc             ASTC Encoder        
+pts/creator             Creator Workloads   
+pts/game-dev            Game Development    
+pts/texture-compression Texture Compression 
+
+pts/avifenc        libavif avifenc   
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+pts/imaging        Imaging           
+pts/av1            AV1               
+
+pts/axs2mlperf axs2mlperf 
+
+pts/basemark Basemark GPU 
+
+pts/basis               Basis Universal     
+pts/creator             Creator Workloads   
+pts/game-dev            Game Development    
+pts/texture-compression Texture Compression 
+
+pts/batman-knight Batman: Arkham Knight 
+pts/steam         Steam                 
+
+pts/batman-origins Batman: Arkham Origins 
+pts/steam          Steam                  
+
+pts/betsy               Betsy GPU Compressor 
+pts/creator             Creator Workloads    
+pts/nvidia-gpu-compute  NVIDIA GPU Compute   
+pts/game-dev            Game Development     
+pts/texture-compression Texture Compression  
+pts/vulkan-compute      Vulkan Compute       
+
+pts/bioshock-infinite BioShock Infinite 
+pts/steam             Steam             
+
+pts/blake2       BLAKE2       
+pts/cryptography Cryptography 
+
+pts/blender            Blender            
+pts/creator            Creator Workloads  
+pts/renderers          Renderers          
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/game-dev           Game Development   
+
+pts/blogbench BlogBench 
+pts/server    Server    
+
+pts/blosc       C-Blosc                                  
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compression Compression Tests                        
+
+pts/bork         Bork File Encrypter 
+pts/cryptography Cryptography        
+pts/java         Java                
+
+pts/botan        Botan        
+pts/cryptography Cryptography 
+
+pts/brl-cad BRL-CAD           
+pts/creator Creator Workloads 
+pts/cad     CAD               
+
+pts/build-apache Timed Apache Compilation                 
+pts/programmer   Programmer / Developer System Benchmarks 
+pts/compilation  Timed Code Compilation                   
+
+pts/build-clash Timed Clash Compilation 
+
+pts/build-eigen Timed Eigen Compilation                  
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-erlang Timed Erlang/OTP Compilation             
+pts/programmer   Programmer / Developer System Benchmarks 
+pts/compilation  Timed Code Compilation                   
+
+pts/build-ffmpeg Timed FFmpeg Compilation                 
+pts/programmer   Programmer / Developer System Benchmarks 
+pts/compilation  Timed Code Compilation                   
+
+pts/build-gcc   Timed GCC Compilation                    
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-gdb   Timed GDB GNU Debugger Compilation       
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-gem5  Timed Gem5 Compilation                   
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-godot Timed Godot Game Engine Compilation      
+pts/creator     Creator Workloads                        
+pts/game-dev    Game Development                         
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-imagemagick Timed ImageMagick Compilation            
+pts/programmer        Programmer / Developer System Benchmarks 
+pts/compilation       Timed Code Compilation                   
+
+pts/build-linux-kernel Timed Linux Kernel Compilation           
+pts/programmer         Programmer / Developer System Benchmarks 
+pts/compilation        Timed Code Compilation                   
+
+pts/build-llvm  Timed LLVM Compilation                   
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-mesa  Timed Mesa Compilation                   
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-mplayer Timed MPlayer Compilation                
+pts/programmer    Programmer / Developer System Benchmarks 
+pts/compilation   Timed Code Compilation                   
+
+pts/build-nodejs Timed Node.js Compilation                
+pts/programmer   Programmer / Developer System Benchmarks 
+pts/compilation  Timed Code Compilation                   
+
+pts/build-php   Timed PHP Compilation                    
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/build-python Timed CPython Compilation                
+pts/programmer   Programmer / Developer System Benchmarks 
+pts/compilation  Timed Code Compilation                   
+
+pts/build-wasmer Timed Wasmer Compilation                 
+pts/programmer   Programmer / Developer System Benchmarks 
+pts/compilation  Timed Code Compilation                   
+
+pts/build2      Build2                                   
+pts/programmer  Programmer / Developer System Benchmarks 
+pts/compilation Timed Code Compilation                   
+
+pts/bullet Bullet Physics Engine 
+
+pts/byte BYTE Unix Benchmark 
+
+pts/c-ray      C-Ray             
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/raytracing Raytracing        
+
+pts/cachebench CacheBench        
+pts/memory     Memory Test Suite 
+
+pts/caffe              Caffe                            
+pts/hpc                HPC - High Performance Computing 
+pts/machine-learning   Machine Learning                 
+pts/nvidia-gpu-compute NVIDIA GPU Compute               
+
+pts/cassandra Apache Cassandra    
+pts/server    Server              
+pts/database  Database Test Suite 
+
+pts/chia-vdf       Chia Blockchain VDF                         
+pts/cryptography   Cryptography                                
+pts/cryptocurrency Cryptocurrency Benchmarks, CPU Mining Tests 
+
+pts/cinebench Maxon Cinebench   
+pts/creator   Creator Workloads 
+pts/renderers Renderers         
+
+pts/civilization-vi Civilization VI 
+pts/steam           Steam           
+
+pts/cl-mem             cl-mem             
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/opencl             OpenCL             
+
+pts/clickhouse ClickHouse          
+pts/server     Server              
+pts/database   Database Test Suite 
+
+pts/clomp CLOMP 
+
+pts/cloudsuite-da CloudSuite Data Analytics 
+
+pts/cloudsuite-ga CloudSuite Graph Analytics 
+
+pts/cloudsuite-ma CloudSuite In-Memory Analytics 
+
+pts/cloudsuite-ms CloudSuite Media Streaming 
+
+pts/cloudsuite-ws CloudSuite Web Serving 
+
+pts/cloverleaf           CloverLeaf                       
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/clpeak             clpeak             
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/opencl             OpenCL             
+
+pts/cockroach CockroachDB         
+pts/server    Server              
+pts/database  Database Test Suite 
+
+pts/coh2  Company of Heroes 2 
+pts/steam Steam               
+
+pts/comd-cl CoMD OpenCL 
+
+pts/compilebench Compile Bench   
+pts/disk         Disk Test Suite 
+
+pts/compress-7zip 7-Zip Compression 
+pts/compression   Compression Tests 
+
+pts/compress-gzip Gzip Compression  
+pts/compression   Compression Tests 
+
+pts/compress-lz4 LZ4 Compression   
+pts/compression  Compression Tests 
+
+pts/compress-pbzip2 Parallel BZIP2 Compression 
+pts/compression     Compression Tests          
+
+pts/compress-rar RAR Compression   
+pts/compression  Compression Tests 
+
+pts/compress-xz XZ Compression    
+pts/compression Compression Tests 
+
+pts/compress-zstd Zstd Compression                         
+pts/programmer    Programmer / Developer System Benchmarks 
+pts/compression   Compression Tests                        
+
+pts/core-latency Core-Latency 
+
+pts/coremark Coremark 
+
+pts/couchdb  Apache CouchDB      
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/cp2k                 CP2K Molecular Dynamics          
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/cpp-perf-bench CppPerformanceBenchmarks 
+
+pts/cpuminer-opt   Cpuminer-Opt                                
+pts/cryptography   Cryptography                                
+pts/cryptocurrency Cryptocurrency Benchmarks, CPU Mining Tests 
+
+pts/crafty Crafty           
+pts/chess  Chess Test Suite 
+
+pts/cryptopp     Crypto++     
+pts/cryptography Cryptography 
+
+pts/cs2   Counter-Strike 2 
+pts/steam Steam            
+
+pts/csgo  Counter-Strike: Global Offensive 
+pts/steam Steam                            
+
+pts/cstrike Counter-Strike Source 
+pts/steam   Steam                 
+
+pts/ctx-clock ctx_clock                
+pts/kernel    Common Kernel Benchmarks 
+
+pts/cuda-mini-nbody CUDA Mini-Nbody 
+
+pts/cyberpunk2077 Cyberpunk 2077 
+pts/steam         Steam          
+
+pts/cyclictest Cyclictest 
+
+pts/cython-bench Cython Benchmark 
+pts/python       Python           
+
+pts/dacapobench DaCapo Benchmark 
+pts/java        Java             
+
+pts/daphne Darmstadt Automotive Parallel Heterogeneous Suite 
+pts/hpc    HPC - High Performance Computing                  
+
+pts/dav1d          dav1d             
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+pts/av1            AV1               
+
+pts/dbench Dbench          
+pts/disk   Disk Test Suite 
+
+pts/ddnet DDraceNetwork 
+
+pts/deeprec DeepRec 
+
+pts/deepsparse       Neural Magic DeepSparse          
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/deepspeech       DeepSpeech                       
+pts/hpc              HPC - High Performance Computing 
+pts/creator          Creator Workloads                
+pts/machine-learning Machine Learning                 
+pts/telephony        Telephony                        
+pts/speech           Speech                           
+
+pts/deus-exmd Deus Ex: Mankind Divided 
+pts/steam     Steam                    
+
+pts/dirt-rally DiRT Rally 
+pts/steam      Steam      
+
+pts/dirt-rally2 DiRT Rally 2.0 
+pts/steam       Steam          
+
+pts/dirt-showdown DiRT Showdown 
+pts/steam         Steam         
+
+pts/dolfyn               Dolfyn                           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/dota2 Dota 2 
+pts/steam Steam  
+
+pts/dow3  Dawn of War III 
+pts/steam Steam           
+
+pts/draco               Google Draco        
+pts/creator             Creator Workloads   
+pts/game-dev            Game Development    
+pts/texture-compression Texture Compression 
+
+pts/dragonflydb Dragonflydb         
+pts/server      Server              
+pts/database    Database Test Suite 
+
+pts/duckdb DuckDB 
+pts/server Server 
+
+pts/easywave easyWave                         
+pts/hpc      HPC - High Performance Computing 
+
+pts/ebizzy ebizzy 
+pts/server Server 
+
+pts/ecp-candle       ECP-CANDLE                       
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/embree  Embree            
+pts/creator Creator Workloads 
+pts/oneapi  Intel oneAPI      
+
+pts/encode-flac    FLAC Audio Encoding 
+pts/creator        Creator Workloads   
+pts/audio-encoding Audio Encoding      
+
+pts/encode-mp3     LAME MP3 Encoding 
+pts/creator        Creator Workloads 
+pts/audio-encoding Audio Encoding    
+
+pts/encode-opus    Opus Codec Encoding 
+pts/creator        Creator Workloads   
+pts/audio-encoding Audio Encoding      
+
+pts/encode-wavpack WavPack Audio Encoding 
+pts/creator        Creator Workloads      
+pts/audio-encoding Audio Encoding         
+
+pts/encodec EnCodec 
+
+pts/espeak    eSpeak-NG Speech Engine 
+pts/creator   Creator Workloads       
+pts/telephony Telephony               
+pts/speech    Speech                  
+
+pts/et Enemy Territory 
+
+pts/etcd     etcd                
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/etcpak              Etcpak              
+pts/creator             Creator Workloads   
+pts/game-dev            Game Development    
+pts/texture-compression Texture Compression 
+
+pts/ethr    Ethr                     
+pts/kernel  Common Kernel Benchmarks 
+pts/network Networking Test Suite    
+
+pts/etlegacy ET: Legacy 
+
+pts/etqw ET: Quake Wars 
+
+pts/etqw-demo ET: Quake Wars Demo 
+
+pts/etqw-demo-iqc ET: Quake Wars Image Quality 
+
+pts/etxreal ETXreaL 
+
+pts/f12015 F1 2015 
+pts/steam  Steam   
+
+pts/f12017 F1 2017 
+pts/steam  Steam   
+
+pts/f12018 F1 2018 
+pts/steam  Steam   
+
+pts/f12020 F1 2020 
+pts/steam  Steam   
+
+pts/f12021 F1 2021 
+pts/steam  Steam   
+
+pts/f122  F1 22 
+pts/steam Steam 
+
+pts/fahbench           FAHBench           
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/faiss Faiss                            
+pts/hpc   HPC - High Performance Computing 
+
+pts/fast-cli       fast-cli       
+pts/internet-speed Internet Speed 
+
+pts/ffmpeg         FFmpeg            
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/ffte                 FFTE                             
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+
+pts/fftw                 FFTW                             
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+
+pts/fhourstones Fhourstones 
+
+pts/financebench       FinanceBench       
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/finance            Finance            
+
+pts/fio  Flexible IO Tester 
+pts/disk Disk Test Suite    
+
+pts/fluidx3d FluidX3D 
+pts/opencl   OpenCL   
+
+pts/fs-mark FS-Mark         
+pts/disk    Disk Test Suite 
+
+pts/furmark FurMark 
+
+pts/gcrypt       Gcrypt Library 
+pts/cryptography Cryptography   
+
+pts/geekbench Geekbench 
+
+pts/geexlab GeeXLab 
+
+pts/geexlab-rt GeeXLab Vulkan Ray-Tracing Demo 
+pts/vulkan-rt  Vulkan Ray-Tracing              
+
+pts/gfxbench GFXBench 
+
+pts/git        Git                                      
+pts/programmer Programmer / Developer System Benchmarks 
+
+pts/gl-vs-vk GL-vs-VK 
+
+pts/glibc-bench Glibc Benchmarks 
+
+pts/glmark2          GLmark2          
+pts/desktop-graphics Desktop Graphics 
+
+pts/gmpbench GNU GMP GMPbench 
+
+pts/gnupg        GnuPG        
+pts/cryptography Cryptography 
+
+pts/go-benchmark Go Benchmarks 
+
+pts/gpaw                 GPAW                             
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/quantum-mechanics    Quantum Mechanics                
+
+pts/gpuowl GpuOwl 
+
+pts/gputest GpuTest 
+
+pts/graph500 Graph500                         
+pts/hpc      HPC - High Performance Computing 
+
+pts/graphics-magick GraphicsMagick    
+pts/creator         Creator Workloads 
+pts/imaging         Imaging           
+
+pts/gravitymark GravityMark 
+
+pts/gromacs              GROMACS                          
+pts/hpc                  HPC - High Performance Computing 
+pts/nvidia-gpu-compute   NVIDIA GPU Compute               
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/gta5  Grand Theft Auto V 
+pts/steam Steam              
+
+pts/hackbench Hackbench                
+pts/kernel    Common Kernel Benchmarks 
+
+pts/hadoop Apache Hadoop 
+pts/server Server        
+
+pts/hammerdb-mariadb HammerDB - MariaDB 
+
+pts/hammerdb-postgresql HammerDB - PostgreSQL 
+
+pts/hashcat            Hashcat            
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/hbase    Apache HBase        
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/hdparm-read hdparm Timed Disk Reads 
+
+pts/heffte HeFFTe - Highly Efficient FFT for Exascale 
+pts/hpc    HPC - High Performance Computing           
+
+pts/helsing Helsing 
+
+pts/himeno               Himeno Benchmark                 
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/bioinformatics       Bioinformatics                   
+
+pts/hint Hierarchical INTegration 
+
+pts/hitman HITMAN 
+pts/steam  Steam  
+
+pts/hitman2 HITMAN 2 
+pts/steam   Steam    
+
+pts/hitman3 HITMAN 3 
+pts/steam   Steam    
+
+pts/hl2-ep2 Half-Life 2: Episode Two 
+pts/steam   Steam                    
+
+pts/hl2lostcoast Half-Life 2 - Lost Coast 
+pts/steam        Steam                    
+
+pts/hmmer                Timed HMMer Search               
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/bioinformatics       Bioinformatics                   
+
+pts/hpcc                 HPC Challenge                            
+pts/hpc                  HPC - High Performance Computing         
+pts/programmer           Programmer / Developer System Benchmarks 
+pts/scientific-computing Scientific Computing                     
+pts/mpi                  MPI Benchmarks                           
+pts/linear-algebra       Linear Algebra                           
+
+pts/hpcg High Performance Conjugate Gradient 
+pts/hpc  HPC - High Performance Computing    
+pts/mpi  MPI Benchmarks                      
+
+pts/hpl HPL Linpack                      
+pts/hpc HPC - High Performance Computing 
+
+pts/idle Timed Idle 
+
+pts/idle-power-usage Idle Power Usage 
+
+pts/incompact3d          Xcompact3d Incompact3d           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/indigobench        IndigoBench        
+pts/creator            Creator Workloads  
+pts/renderers          Renderers          
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/influxdb InfluxDB            
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/insurgency Insurgency 
+pts/steam      Steam      
+
+pts/intel-mlc Intel Memory Latency Checker 
+
+pts/intel-mpi Intel MPI Benchmarks             
+pts/hpc       HPC - High Performance Computing 
+pts/mpi       MPI Benchmarks                   
+
+pts/intel-tensorflow Intel TensorFlow 
+
+pts/ior  IOR                              
+pts/hpc  HPC - High Performance Computing 
+pts/disk Disk Test Suite                  
+
+pts/ipc-benchmark IPC_benchmark            
+pts/kernel        Common Kernel Benchmarks 
+
+pts/iperf   iPerf                    
+pts/kernel  Common Kernel Benchmarks 
+pts/network Networking Test Suite    
+
+pts/j2dbench Java 2D Microbenchmark 
+
+pts/java-gradle-perf Java Gradle Build 
+pts/java             Java              
+
+pts/java-jmh Java JMH 
+pts/java     Java     
+
+pts/java-scimark2 Java SciMark 
+pts/java          Java         
+
+pts/jgfxbat Java Graphics Basic Acceptance Test 
+
+pts/john-the-ripper John The Ripper 
+pts/cryptography    Cryptography    
+
+pts/jpegxl  JPEG-XL libjxl    
+pts/creator Creator Workloads 
+pts/imaging Imaging           
+
+pts/jpegxl-decode JPEG-XL Decoding libjxl 
+pts/creator       Creator Workloads       
+pts/imaging       Imaging                 
+
+pts/juliagpu JuliaGPU 
+pts/opencl   OpenCL   
+
+pts/jxrendermark JXRenderMark 
+
+pts/keydb    KeyDB               
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/kripke               Kripke                           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+
+pts/kvazaar        Kvazaar           
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/l4d2  Left 4 Dead 2 
+pts/steam Steam         
+
+pts/laghos Laghos                           
+pts/hpc    HPC - High Performance Computing 
+
+pts/lammps               LAMMPS Molecular Dynamics Simulator 
+pts/hpc                  HPC - High Performance Computing    
+pts/scientific-computing Scientific Computing                
+pts/mpi                  MPI Benchmarks                      
+pts/molecular-dynamics   Molecular Dynamics                  
+
+pts/lczero             LeelaChessZero                   
+pts/hpc                HPC - High Performance Computing 
+pts/machine-learning   Machine Learning                 
+pts/nvidia-gpu-compute NVIDIA GPU Compute               
+pts/chess              Chess Test Suite                 
+
+pts/leveldb  LevelDB                  
+pts/server   Server                   
+pts/database Database Test Suite      
+pts/kernel   Common Kernel Benchmarks 
+
+pts/libframetime  
+
+pts/libgav1        libgav1           
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+pts/av1            AV1               
+
+pts/libplacebo         Libplacebo         
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/vulkan-compute     Vulkan Compute     
+
+pts/libraw  LibRaw            
+pts/creator Creator Workloads 
+pts/imaging Imaging           
+
+pts/libxsmm libxsmm                          
+pts/hpc     HPC - High Performance Computing 
+
+pts/linux-kernel-base  
+
+pts/liquid-dsp Liquid-DSP             
+pts/sdr        Software Defined Radio 
+
+pts/llama-cpp        Llama.cpp                        
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+pts/llm              Large Language Models            
+
+pts/llamafile        Llamafile                        
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+pts/llm              Large Language Models            
+
+pts/luajit   LuaJIT            
+pts/creator  Creator Workloads 
+pts/game-dev Game Development  
+
+pts/luaradio LuaRadio               
+pts/sdr      Software Defined Radio 
+
+pts/lulesh               LULESH                           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/lulesh-cl Lulesh OpenCL 
+pts/opencl    OpenCL        
+
+pts/luxcorerender      LuxCoreRender      
+pts/creator            Creator Workloads  
+pts/renderers          Renderers          
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/luxmark LuxMark 
+pts/opencl  OpenCL  
+
+pts/lzbench     lzbench           
+pts/compression Compression Tests 
+
+pts/m-queens m-queens         
+pts/chess    Chess Test Suite 
+
+pts/madmax Mad Max 
+
+pts/mafft                Timed MAFFT Alignment            
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/bioinformatics       Bioinformatics                   
+
+pts/mandelbulbgpu MandelbulbGPU 
+pts/opencl        OpenCL        
+
+pts/mandelgpu          MandelGPU          
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/opencl             OpenCL             
+
+pts/mariadb MariaDB 
+pts/server  Server  
+
+pts/mbw    MBW                      
+pts/kernel Common Kernel Benchmarks 
+pts/memory Memory Test Suite        
+
+pts/memcached Memcached           
+pts/server    Server              
+pts/database  Database Test Suite 
+
+pts/memtier-benchmark Redis 7.0.12 + memtier_benchmark 
+pts/server            Server                           
+pts/database          Database Test Suite              
+
+pts/mencoder Mencoder 
+
+pts/metro2033-redux Metro 2033 Redux 
+pts/steam           Steam            
+
+pts/metroll-redux Metro: Last Light Redux 
+pts/steam         Steam                   
+
+pts/minibude miniBUDE                         
+pts/hpc      HPC - High Performance Computing 
+
+pts/minife               miniFE                           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/minion Minion 
+
+pts/mixbench           Mixbench           
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/mkl-dnn oneDNN MKL-DNN 
+
+pts/mlpack           Mlpack Benchmark                 
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+pts/python           Python                           
+
+pts/mnn              Mobile Neural Network            
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/mocassin             Monte Carlo Simulations of Ionised Nebulae 
+pts/hpc                  HPC - High Performance Computing           
+pts/scientific-computing Scientific Computing                       
+pts/mpi                  MPI Benchmarks                             
+
+pts/montage Montage Astronomical Image Mosaic Engine 
+pts/creator Creator Workloads                        
+pts/imaging Imaging                                  
+
+pts/mpcbench GNU MPC 
+
+pts/mplayer-base  
+
+pts/mrbayes              Timed MrBayes Analysis           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/bioinformatics       Bioinformatics                   
+
+pts/mt-dgemm             ACES DGEMM                               
+pts/hpc                  HPC - High Performance Computing         
+pts/programmer           Programmer / Developer System Benchmarks 
+pts/scientific-computing Scientific Computing                     
+pts/linear-algebra       Linear Algebra                           
+
+pts/multichase Multichase Pointer Chaser 
+
+pts/mutex  BenchmarkMutex           
+pts/kernel Common Kernel Benchmarks 
+
+pts/mysqlslap MariaDB mariadb-slap 
+pts/server    Server               
+pts/database  Database Test Suite  
+
+pts/n-queens N-Queens         
+pts/chess    Chess Test Suite 
+
+pts/namd                 NAMD                             
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/namd-cuda          NAMD CUDA          
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/natron    Natron            
+pts/creator   Creator Workloads 
+pts/renderers Renderers         
+
+pts/ncnn               NCNN                             
+pts/hpc                HPC - High Performance Computing 
+pts/machine-learning   Machine Learning                 
+pts/nvidia-gpu-compute NVIDIA GPU Compute               
+pts/vulkan-compute     Vulkan Compute                   
+
+pts/neat                 Nebular Empirical Analysis Tool  
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+
+pts/neatbench          NeatBench          
+pts/creator            Creator Workloads  
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/nekrs nekRS                            
+pts/hpc   HPC - High Performance Computing 
+
+pts/nero2d Open FMM Nero2D 
+pts/mpi    MPI Benchmarks  
+
+pts/netperf Netperf               
+pts/network Networking Test Suite 
+
+pts/nettle       Nettle       
+pts/cryptography Cryptography 
+
+pts/network-loopback Loopback TCP Network Performance 
+
+pts/ngc-tensorflow NVIDIA GPU Cloud TensorFlow 
+
+pts/nginx  nginx  
+pts/server Server 
+
+pts/ngspice           Ngspice           
+pts/creator           Creator Workloads 
+pts/electronic-design Electronic Design 
+
+pts/node-express-loadtest Node.js Express HTTP Load Test 
+pts/server                Server                         
+
+pts/node-octane Node.js Octane Benchmark 
+
+pts/node-web-tooling Node.js V8 Web Tooling Benchmark         
+pts/server           Server                                   
+pts/programmer       Programmer / Developer System Benchmarks 
+
+pts/novabench Novabench 
+
+pts/npb NAS Parallel Benchmarks          
+pts/hpc HPC - High Performance Computing 
+pts/mpi MPI Benchmarks                   
+
+pts/numenta-nab      Numenta Anomaly Benchmark        
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+pts/python           Python                           
+
+pts/numpy            Numpy Benchmark                  
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+pts/python           Python                           
+
+pts/nuttcp Nuttcp 
+
+pts/nwchem               NWChem                           
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/octanebench        OctaneBench        
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/oidn     Intel Open Image Denoise 
+pts/creator  Creator Workloads        
+pts/oneapi   Intel oneAPI             
+pts/game-dev Game Development         
+
+pts/oneapi-level-zero oneAPI Level Zero Tests 
+pts/creator           Creator Workloads       
+pts/oneapi            Intel oneAPI            
+
+pts/onednn           oneDNN                           
+pts/hpc              HPC - High Performance Computing 
+pts/creator          Creator Workloads                
+pts/machine-learning Machine Learning                 
+pts/oneapi           Intel oneAPI                     
+
+pts/onnx             ONNX Runtime                     
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/open-porous-media Open Porous Media 
+
+pts/openarena        OpenArena        
+pts/desktop-graphics Desktop Graphics 
+
+pts/opencl-benchmark ProjectPhysX OpenCL-Benchmark 
+
+pts/opencv           OpenCV                           
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/opencv-bench OpenCV Benchmark 
+
+pts/opendwarfs OpenDwarfs 
+pts/opencl     OpenCL     
+
+pts/openems           OpenEMS           
+pts/creator           Creator Workloads 
+pts/electronic-design Electronic Design 
+
+pts/openfoam             OpenFOAM                         
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/openjpeg OpenJPEG          
+pts/creator  Creator Workloads 
+pts/imaging  Imaging           
+
+pts/openradioss OpenRadioss                      
+pts/hpc         HPC - High Performance Computing 
+
+pts/openssl      OpenSSL                  
+pts/server       Server                   
+pts/kernel       Common Kernel Benchmarks 
+pts/cryptography Cryptography             
+
+pts/openvino         OpenVINO                         
+pts/hpc              HPC - High Performance Computing 
+pts/creator          Creator Workloads                
+pts/machine-learning Machine Learning                 
+pts/oneapi           Intel oneAPI                     
+
+pts/openvkl  OpenVKL           
+pts/creator  Creator Workloads 
+pts/oneapi   Intel oneAPI      
+pts/game-dev Game Development  
+
+pts/optcarrot Optcarrot 
+
+pts/osbench OSBench                  
+pts/kernel  Common Kernel Benchmarks 
+
+pts/ospray     OSPRay            
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/oneapi     Intel oneAPI      
+pts/raytracing Raytracing        
+
+pts/ospray-studio OSPRay Studio     
+pts/creator       Creator Workloads 
+pts/renderers     Renderers         
+pts/oneapi        Intel oneAPI      
+pts/raytracing    Raytracing        
+
+pts/palabos Palabos                          
+pts/hpc     HPC - High Performance Computing 
+
+pts/paraview         ParaView         
+pts/desktop-graphics Desktop Graphics 
+
+pts/parboil Parboil                          
+pts/hpc     HPC - High Performance Computing 
+pts/opencl  OpenCL                           
+
+pts/pennant              Pennant                          
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/molecular-dynamics   Molecular Dynamics               
+
+pts/perf-bench perf-bench               
+pts/kernel     Common Kernel Benchmarks 
+
+pts/perl-benchmark Perl Benchmarks 
+pts/server         Server          
+
+pts/petsc PETSc                            
+pts/hpc   HPC - High Performance Computing 
+
+pts/pgbench  PostgreSQL               
+pts/server   Server                   
+pts/database Database Test Suite      
+pts/kernel   Common Kernel Benchmarks 
+
+pts/photo-sample  
+
+pts/php    PHP Micro Benchmarks 
+pts/server Server               
+
+pts/phpbench PHPBench 
+pts/server   Server   
+
+pts/pjdfstest Pjdfstest 
+
+pts/pjsip     PJSIP     
+pts/telephony Telephony 
+
+pts/plaidml            PlaidML                          
+pts/hpc                HPC - High Performance Computing 
+pts/machine-learning   Machine Learning                 
+pts/nvidia-gpu-compute NVIDIA GPU Compute               
+
+pts/pmbench pmbench                  
+pts/kernel  Common Kernel Benchmarks 
+
+pts/polybench-c PolyBench-C 
+
+pts/polyhedron Polyhedron Fortran Benchmarks 
+
+pts/portal Portal 
+pts/steam  Steam  
+
+pts/portal2 Portal 2 
+pts/steam   Steam    
+
+pts/postmark PostMark                 
+pts/kernel   Common Kernel Benchmarks 
+pts/disk     Disk Test Suite          
+
+pts/povray     POV-Ray           
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/raytracing Raytracing        
+
+pts/powertop-wakeups Powertop Wakeups 
+
+pts/ppracer Planet Penguin Racer 
+
+pts/prey Prey 
+
+pts/primesieve Primesieve 
+
+pts/pts-self-test Phoronix Test Suite Self Test 
+
+pts/pybench    PyBench                                  
+pts/python     Python                                   
+pts/programmer Programmer / Developer System Benchmarks 
+
+pts/pyhpc  PyHPC Benchmarks                 
+pts/hpc    HPC - High Performance Computing 
+pts/python Python                           
+
+pts/pymongo-inserts PyMongo Inserts 
+
+pts/pyperformance PyPerformance                            
+pts/python        Python                                   
+pts/programmer    Programmer / Developer System Benchmarks 
+
+pts/pytorch          PyTorch                          
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/qe                   Quantum ESPRESSO                 
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/quantum-mechanics    Quantum Mechanics                
+
+pts/qgears2 QGears2 
+
+pts/qmcpack              QMCPACK                          
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/mpi                  MPI Benchmarks                   
+pts/bioinformatics       Bioinformatics                   
+
+pts/qmlbench Qmlbench 
+
+pts/quadray    QuadRay           
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/raytracing Raytracing        
+
+pts/quake2rtx Quake II RTX 
+pts/steam     Steam        
+
+pts/quake4 Quake 4 
+
+pts/quantlib QuantLib 
+pts/finance  Finance  
+
+pts/quicksilver Quicksilver                      
+pts/hpc         HPC - High Performance Computing 
+
+pts/rabbitmq RabbitMQ 
+
+pts/radiance  Radiance Benchmark 
+pts/creator   Creator Workloads  
+pts/renderers Renderers          
+
+pts/ramspeed RAMspeed SMP      
+pts/memory   Memory Test Suite 
+
+pts/rav1e          rav1e             
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+pts/av1            AV1               
+
+pts/rays1bench rays1bench        
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/raytracing Raytracing        
+
+pts/rbenchmark       R Benchmark                      
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/reaction Reaction Quake 3 
+
+pts/realsr-ncnn        RealSR-NCNN        
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/vulkan-compute     Vulkan Compute     
+
+pts/redis    Redis               
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/redshift           RedShift Demo      
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/relion RELION                           
+pts/hpc    HPC - High Performance Computing 
+
+pts/remhos Remhos                           
+pts/hpc    HPC - High Performance Computing 
+
+pts/renaissance Renaissance 
+pts/java        Java        
+
+pts/riseofthetombraider Rise of the Tomb Raider 
+pts/steam               Steam                   
+
+pts/rnnoise          RNNoise                          
+pts/hpc              HPC - High Performance Computing 
+pts/creator          Creator Workloads                
+pts/machine-learning Machine Learning                 
+pts/telephony        Telephony                        
+pts/speech           Speech                           
+
+pts/rocksdb  RocksDB                  
+pts/server   Server                   
+pts/database Database Test Suite      
+pts/kernel   Common Kernel Benchmarks 
+
+pts/rodinia            Rodinia                          
+pts/hpc                HPC - High Performance Computing 
+pts/nvidia-gpu-compute NVIDIA GPU Compute               
+pts/opencl             OpenCL                           
+
+pts/rtiv      Ray Tracing In Vulkan 
+pts/vulkan-rt Vulkan Ray-Tracing    
+
+pts/rust-mandel Rust Mandelbrot 
+
+pts/rust-prime Rust Prime Benchmark 
+
+pts/sam2017 Serious Sam Fusion 2017 
+pts/steam   Steam                   
+
+pts/sample-pass-fail Sample Pass Fail 
+
+pts/sample-program Sample Pi Program 
+
+pts/schbench Schbench                 
+pts/kernel   Common Kernel Benchmarks 
+
+pts/scikit-learn     Scikit-Learn                     
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+pts/python           Python                           
+
+pts/scimark2 SciMark 
+
+pts/scylladb ScyllaDB 
+pts/server   Server   
+
+pts/securemark   SecureMark   
+pts/cryptography Cryptography 
+
+pts/serial-loopback Serial Loopback Test 
+
+pts/shadowofthetombraider Shadow of the Tomb Raider 
+pts/steam                 Steam                     
+
+pts/shoc               SHOC Scalable HeterOgeneous Computing 
+pts/hpc                HPC - High Performance Computing      
+pts/machine-learning   Machine Learning                      
+pts/nvidia-gpu-compute NVIDIA GPU Compute                    
+pts/opencl             OpenCL                                
+
+pts/simdjson   simdjson                                 
+pts/server     Server                                   
+pts/programmer Programmer / Developer System Benchmarks 
+
+pts/smallpt   Smallpt           
+pts/creator   Creator Workloads 
+pts/renderers Renderers         
+
+pts/smallpt-gpu SmallPT GPU 
+pts/opencl      OpenCL      
+
+pts/smart SMART Disk Self-Report 
+
+pts/smhasher     SMHasher     
+pts/cryptography Cryptography 
+
+pts/sockperf Sockperf              
+pts/network  Networking Test Suite 
+
+pts/spacy            spaCy                            
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/spark    Apache Spark        
+pts/server   Server              
+pts/database Database Test Suite 
+
+pts/spark-tpcds Apache Spark TPC-DS 
+pts/server      Server              
+
+pts/spark-tpch Apache Spark TPC-H 
+pts/server     Server             
+
+pts/spec-cpu2017 SPEC CPU 2017 
+
+pts/spec-jbb2015 SPECjbb 2015 
+
+pts/specfem3d SPECFEM3D                        
+pts/hpc       HPC - High Performance Computing 
+
+pts/specviewperf2020 SPECViewPerf 2020 
+
+pts/specviewperf9 SPECViewPerf 9 
+
+pts/speedb Speedb 
+pts/server Server 
+
+pts/speedtest-cli  speedtest-cli  
+pts/internet-speed Internet Speed 
+
+pts/sqlite   SQLite              
+pts/server   Server              
+pts/database Database Test Suite 
+pts/disk     Disk Test Suite     
+
+pts/sqlite-speedtest SQLite Speedtest                         
+pts/server           Server                                   
+pts/database         Database Test Suite                      
+pts/kernel           Common Kernel Benchmarks                 
+pts/programmer       Programmer / Developer System Benchmarks 
+
+pts/srslte srsLTE                 
+pts/sdr    Software Defined Radio 
+
+pts/srsran srsRAN Project         
+pts/sdr    Software Defined Radio 
+
+pts/ss3bfe Serious Sam 3: BFE 
+pts/steam  Steam              
+
+pts/star-swarm Star Swarm Stress Test 
+
+pts/stargate       Stargate Digital Audio Workstation 
+pts/creator        Creator Workloads                  
+pts/audio-encoding Audio Encoding                     
+
+pts/startup-time Application Start-up Time 
+
+pts/stockfish Stockfish        
+pts/chess     Chess Test Suite 
+
+pts/strange-brigade Strange Brigade 
+pts/steam           Steam           
+
+pts/stream Stream            
+pts/memory Memory Test Suite 
+
+pts/stream-dynamic Stream-Dynamic 
+
+pts/stress-ng Stress-NG                
+pts/kernel    Common Kernel Benchmarks 
+
+pts/stressapptest Stressful Application Test 
+
+pts/sudokut Sudokut 
+
+pts/sunflow Sunflow Rendering System 
+pts/java    Java                     
+
+pts/supertuxkart SuperTuxKart 
+
+pts/svt-av1        SVT-AV1           
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+pts/av1            AV1               
+
+pts/svt-hevc       SVT-HEVC          
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/svt-vp9        SVT-VP9           
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/swet Swet 
+
+pts/synthmark Google SynthMark  
+pts/creator   Creator Workloads 
+pts/telephony Telephony         
+pts/speech    Speech            
+
+pts/sysbench Sysbench 
+
+pts/system-decompress-bzip2 System BZIP2 Decompression 
+
+pts/system-decompress-gzip System GZIP Decompression 
+pts/compression            Compression Tests         
+
+pts/system-decompress-tiff System Libtiff Decompression 
+
+pts/system-decompress-xz System XZ Decompression 
+pts/compression          Compression Tests       
+
+pts/system-libjpeg System JPEG Library Decode 
+
+pts/system-libxml2 System Libxml2 Parsing 
+
+pts/systemd-boot-kernel Systemd Kernel Boot Time 
+
+pts/systemd-boot-total Systemd Total Boot Time 
+
+pts/systemd-boot-userspace Systemd Userspace Boot Time 
+
+pts/t-test1 t-test1                  
+pts/kernel  Common Kernel Benchmarks 
+pts/memory  Memory Test Suite        
+
+pts/tachyon    Tachyon           
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/raytracing Raytracing        
+
+pts/talos-principle The Talos Principle 
+pts/steam           Steam               
+
+pts/tensorflow       TensorFlow                       
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/tensorflow-lite  TensorFlow Lite                  
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/tesseract        Tesseract        
+pts/desktop-graphics Desktop Graphics 
+
+pts/tf2   Team Fortress 2 
+pts/steam Steam           
+
+pts/thronesofbritannia A Total War Saga: THRONES OF BRITANNIA 
+pts/steam              Steam                                  
+
+pts/tidb TiDB Community Server 
+
+pts/timed-audio-encode  
+
+pts/tinymembench Tinymembench             
+pts/kernel       Common Kernel Benchmarks 
+pts/memory       Memory Test Suite        
+
+pts/tiobench Threaded I/O Tester 
+
+pts/tjbench libjpeg-turbo tjbench 
+pts/creator Creator Workloads     
+pts/imaging Imaging               
+
+pts/tnn              TNN                              
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/toktx               KTX-Software toktx  
+pts/creator             Creator Workloads   
+pts/game-dev            Game Development    
+pts/texture-compression Texture Compression 
+
+pts/tomb-raider Tomb Raider 
+pts/steam       Steam       
+
+pts/toybrot toyBrot Fractal Generator 
+
+pts/trislam Triangle Slammer 
+
+pts/tscp  TSCP             
+pts/chess Chess Test Suite 
+
+pts/ttsiod-renderer TTSIOD 3D Renderer 
+pts/creator         Creator Workloads  
+pts/renderers       Renderers          
+
+pts/tungsten  Tungsten Renderer 
+pts/creator   Creator Workloads 
+pts/renderers Renderers         
+pts/oneapi    Intel oneAPI      
+
+pts/twtk  Total War: Three Kingdoms 
+pts/steam Steam                     
+
+pts/tww2  Total War: WARHAMMER II 
+pts/steam Steam                   
+
+pts/tww3  Total War: WARHAMMER III 
+pts/steam Steam                    
+
+pts/ue4-atlantis Atlantis Substance Demo 
+
+pts/ue4-elemental Elemental Demo 
+
+pts/ue4-matinee Matinee Fight Scene Demo 
+
+pts/ue4-mountains Landscape Mountains Demo 
+
+pts/unigine-heaven   Unigine Heaven     
+pts/desktop-graphics Desktop Graphics   
+pts/unigine          Unigine Test Suite 
+
+pts/unigine-sanctuary Unigine Sanctuary  
+pts/unigine           Unigine Test Suite 
+
+pts/unigine-super Unigine Superposition 
+pts/unigine       Unigine Test Suite    
+
+pts/unigine-tropics Unigine Tropics    
+pts/unigine         Unigine Test Suite 
+
+pts/unigine-valley   Unigine Valley     
+pts/desktop-graphics Desktop Graphics   
+pts/unigine          Unigine Test Suite 
+
+pts/unpack-firefox Unpacking Firefox 
+
+pts/unpack-linux Unpacking The Linux Kernel 
+
+pts/unvanquished Unvanquished 
+
+pts/urbanterror Urban Terror 
+
+pts/ut2004-demo Unreal Tournament 2004 Demo 
+
+pts/uvg266         uvg266            
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/v-ray              Chaos Group V-RAY  
+pts/creator            Creator Workloads  
+pts/renderers          Renderers          
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+
+pts/vdrift-fps-monitor VDrift 
+
+pts/video-cpu-usage 1080p H.264 Video Playback 
+
+pts/video-sample  
+
+pts/viennacl           ViennaCL           
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/opencl             OpenCL             
+
+pts/vkfft              VkFFT              
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/vulkan-compute     Vulkan Compute     
+
+pts/vkmark VKMark 
+
+pts/vkpeak             vkpeak             
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/vulkan-compute     Vulkan Compute     
+
+pts/vkresample         VkResample         
+pts/nvidia-gpu-compute NVIDIA GPU Compute 
+pts/vulkan-compute     Vulkan Compute     
+
+pts/vosk      VOSK Speech Recognition Toolkit 
+pts/creator   Creator Workloads               
+pts/telephony Telephony                       
+pts/speech    Speech                          
+
+pts/vpxenc         VP9 libvpx Encoding 
+pts/creator        Creator Workloads   
+pts/video-encoding Video Encoding      
+
+pts/vvenc          VVenC             
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/waifu2x-ncnn       Waifu2x-NCNN Vulkan 
+pts/nvidia-gpu-compute NVIDIA GPU Compute  
+pts/vulkan-compute     Vulkan Compute      
+
+pts/warsow Warsow 
+
+pts/webp    WebP Image Encode 
+pts/creator Creator Workloads 
+pts/imaging Imaging           
+
+pts/webp2   WebP2 Image Encode 
+pts/creator Creator Workloads  
+pts/imaging Imaging            
+
+pts/whisper-cpp      Whisper.cpp                      
+pts/hpc              HPC - High Performance Computing 
+pts/machine-learning Machine Learning                 
+
+pts/will-it-scale will-it-scale 
+
+pts/wrf WRF                              
+pts/hpc HPC - High Performance Computing 
+
+pts/x11perf x11perf 
+
+pts/x264           x264              
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/x265           x265              
+pts/creator        Creator Workloads 
+pts/video-encoding Video Encoding    
+
+pts/xmrig          Xmrig                                       
+pts/cryptography   Cryptography                                
+pts/cryptocurrency Cryptocurrency Benchmarks, CPU Mining Tests 
+
+pts/xonotic          Xonotic          
+pts/desktop-graphics Desktop Graphics 
+
+pts/xplane11 X-Plane 
+pts/steam    Steam   
+
+pts/xplane12 X-Plane 
+pts/steam    Steam   
+
+pts/xsbench Xsbench 
+
+pts/xsbench-cl Xsbench OpenCL 
+pts/opencl     OpenCL         
+
+pts/y-cruncher Y-Cruncher 
+
+pts/yafaray    YafaRay           
+pts/creator    Creator Workloads 
+pts/renderers  Renderers         
+pts/raytracing Raytracing        
+
+pts/yquake2 yquake2 
+
+pts/yugabytedb YugabyteDB 
+pts/server     Server     
+
+pts/z3 Z3 Theorem Prover 
+
+pts/zendnn-tensorflow AMD ZenDNN TensorFlow 
+
+system/apache Apache Benchmark 
+
+system/blender Blender 
+
+system/blogbench BlogBench 
+
+system/cephfs-rados CephFS RADOS Benchmark 
+
+system/clpeak clpeak 
+
+system/compress-lzma LZMA Compression 
+
+system/compress-pbzip2 PBZIP2 Compression 
+
+system/compress-zstd Zstd Compression 
+
+system/cryptsetup Cryptsetup                               
+pts/programmer    Programmer / Developer System Benchmarks 
+pts/cryptography  Cryptography                             
+
+system/darktable Darktable         
+pts/creator      Creator Workloads 
+pts/imaging      Imaging           
+pts/opencl       OpenCL            
+
+system/dbench Dbench 
+
+system/ethminer Ethereum Ethminer 
+
+system/fio Flexible IO Tester 
+
+system/gegl      GEGL              
+pts/creator      Creator Workloads 
+pts/imaging      Imaging           
+pts/productivity Productivity      
+
+system/gimp      GIMP              
+pts/creator      Creator Workloads 
+pts/imaging      Imaging           
+pts/productivity Productivity      
+
+system/glmark2 GLmark2 
+
+system/gmic G'MIC             
+pts/creator Creator Workloads 
+pts/imaging Imaging           
+
+system/gnupg GnuPG 
+
+system/gnuradio GNU Radio              
+pts/sdr         Software Defined Radio 
+
+system/hugin Hugin             
+pts/creator  Creator Workloads 
+pts/imaging  Imaging           
+
+system/inkscape  Inkscape          
+pts/creator      Creator Workloads 
+pts/imaging      Imaging           
+pts/productivity Productivity      
+
+system/iozone IOzone 
+
+system/libreoffice LibreOffice  
+pts/productivity   Productivity 
+
+system/mpv MPV 
+
+system/mysql MySQL 
+
+system/nginx Nginx 
+
+system/ocrmypdf OCRMyPDF          
+pts/creator     Creator Workloads 
+pts/ocr         OCR               
+
+system/octave-benchmark  GNU Octave Benchmark             
+pts/hpc                  HPC - High Performance Computing 
+pts/scientific-computing Scientific Computing             
+pts/productivity         Productivity                     
+
+system/openscad OpenSCAD          
+pts/creator     Creator Workloads 
+pts/cad         CAD               
+
+system/openssl OpenSSL 
+
+system/opm Open Porous Media 
+
+system/rawtherapee RawTherapee       
+pts/creator        Creator Workloads 
+pts/imaging        Imaging           
+
+system/redis Redis Memtier / Redis Benchmark 
+
+system/rsvg      librsvg           
+pts/creator      Creator Workloads 
+pts/imaging      Imaging           
+pts/productivity Productivity      
+
+system/selenium Selenium     
+pts/browsers    Web Browsers 
+
+system/selenium-top-sites Time To Load + View Popular Websites 
+
+system/sqlite SQLite 
+
+system/tensorrt-inference NVIDIA TensorRT Inference 
+
+system/tesseract-ocr Tesseract OCR     
+pts/creator          Creator Workloads 
+pts/ocr              OCR               
+
+system/timed-battery-test Timed Battery Test 
+
+system/wireguard WireGuard + Linux Networking Stack Stress Test 
+pts/kernel       Common Kernel Benchmarks                       
+
+git/aom-av1 AOM AV1 
+
+git/clickhouse ClickHouse 
+
+git/dav1d dav1d 
+
+git/rav1e rav1e 
+
+git/svt-av1 SVT-AV1 
+
+git/svt-hevc SVT-HEVC 
+
+git/svt-vp9 SVT-VP9 
+
+git/vpxenc VP9 libvpx Encoding 
+
+git/x265 x265 
+
+
